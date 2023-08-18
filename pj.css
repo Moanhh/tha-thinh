@@ -1,0 +1,83 @@
+.content {
+  position: relative;
+  z-index: 3;
+}
+#c4{
+  position: absolute;
+  display: inline-block;
+  left: 35%; 
+  top: 40vh;
+  color: rgb(27, 22, 22);
+  background-color: rgb(220, 191, 241);
+}
+#c2{
+  position: absolute;
+  display: inline-block;
+  left: 70%; 
+  top: 40vh;
+  background-color: rgb(240, 164, 164);
+}
+#bg{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: .8;
+z-index: 0;
+background-repeat: no-repeat;
+background: url(https://previews.123rf.com/images/cnuisin/cnuisin1908/cnuisin190800220/129295576-duck-seamless-pattern-vector-rubber-duck-tile-background-repeat-wallpaper-scarf-isolated-illustratio.jpg);
+background-size: cover;
+background-position: 50%;
+}
+.swal2-title, .swal2-content{
+color: rgb(221, 219, 81) !important;
+}
+.swal2-popup {
+border-radius: 15px !important;
+}
+
+header h2 {
+font-family: 'Pacifico';
+font-size: 80px;
+text-align: center;
+margin-bottom: 30px;
+color: rgb(97, 32, 32);
+border-radius: 8px;
+font-weight: 550;
+}
+header h4 {
+font-family: 'Pacifico';
+text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+header h2 {
+  font-family: 'Pacifico';
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h4 {
+  font-family: 'Pacifico';
+  text-align: center;
+  padding: 15px;
+  color: rgb(145, 22, 22);
+}
+#c4{
+  position: absolute;
+  display: inline-block;
+  left: 7%; 
+  top: 40vh;
+  font-size: 14px;
+  padding: 3px;
+}
+#c2{
+  position: absolute;
+  display: inline-block;
+  left: 58%; 
+  top: 40vh;
+  font-size: 14px;
+  padding: 3px;
+  }
+}
